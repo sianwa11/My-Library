@@ -17,7 +17,7 @@ public class WantToReadBookActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_want_to_read_book);
 
-        adapter = new BooksRecViewAdapter(this);
+        adapter = new BooksRecViewAdapter(this,"wantToRead");
         recyclerView = findViewById(R.id.wantToRecView);
 
         recyclerView.setAdapter(adapter);
